@@ -1,6 +1,7 @@
-package com.ibcsPrimaxv2.DepartmentServices.entities;
+package com.ibcsPrimaxv2.EmployeeServices.entities;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -111,6 +112,15 @@ public class Employee {
 		return "Employee [id=" + id + ", name=" + name + ", dob=" + dob + ", code=" + code + ", Gender=" + Gender
 				+ ", Mobile=" + Mobile + ", deptId=" + deptId + "]";
 	}
+
+
+	public void setDepartment(List department) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
 
 
 	
