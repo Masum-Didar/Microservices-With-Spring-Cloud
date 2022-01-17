@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import React, { useState } from "react";
 import Employee from "./Employee";
 
 
@@ -16,7 +16,6 @@ const AllEmployee = () =>{
     return(
 
         <div>
-            <h1>Employee List</h1>
 
             {
                 employees.length>0 ? employees.map( (item)=> <Employee employee={item} />)
