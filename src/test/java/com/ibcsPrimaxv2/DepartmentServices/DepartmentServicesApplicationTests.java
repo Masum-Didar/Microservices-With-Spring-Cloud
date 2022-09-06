@@ -1,0 +1,13 @@
+package com.ibcsPrimaxv2.DepartmentServices;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class DepartmentServicesApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
